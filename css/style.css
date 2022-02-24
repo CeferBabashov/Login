@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    text-align: right;
+}
+body{
+    background-color: #6a99de;
+}
+#form{
+    width: 440px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 8px 10px rgba(0,1,1,0.26));
+    background-color: #faf5f5;
+    border-color: blue;
+    padding-bottom: 40px;
+    margin:100px auto;
+}
+
+.container{
+    margin: auto;
+    width: 350px;
+}
+.container h1{
+    font-size: 24px;
+    line-height: 28px;
+    color: #4f4f4f;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    padding:40px 0 0 0 ;
+    text-transform: uppercase;
+}
+.container h2{
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #4f4f4f;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    text-transform: uppercase;
+    margin-top:30px ;
+}
+.container form input
+{
+    border-radius: 5px;
+    outline: none;
+    width:350px;
+    padding: 20px 0 15px 17px; 
+    margin-top: 3px;
+    background-color: rgba(255,255,255,0.7019607843137254);
+border: 1px solid #d8d8d8;
+}
+.container form input::placeholder{
+    font-size: 18px;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Proxima Nova";
+}
+.container form input[type="checkbox"]
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+.container form p {
+    font-size: 14px;
+line-height: 28px;
+color: #8b8b8b;
+font-weight: bold;
+font-family: "Proxima Nova";
+}
+
+.container button.button1{
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 4px;
+    filter: drop-shadow(0px 3px 0px #0075aa);
+    background-color: #0896d7;
+    color: #ffff;
+    outline: none;
+    border: none;
+    margin-bottom:50px;
+}
+.container button.button2{
+    width: 170px;
+    font-size: 17px;
+    padding: 12px 0px ;
+    border-radius: 6px;
+    background-color: #3162a2;
+    outline: none;
+    border: none;
+}
+.container button.button3{
+    width: 170px;
+    margin-left:5px;
+    font-size: 17px;
+    padding: 12px 0px;
+    border-radius: 6px;
+    background-color: #00aaf4;
+    outline: none;
+    border: none;
+}
+.container form a{
+    font-size: 22px;
+line-height: 28px;
+color: #ffffff;
+font-weight: bold;
+font-family: "Proxima Nova";
+text-align: center;
+filter: drop-shadow(0px -1px 0px rgba(0,0,0,0.2));
+}
+.container form a.forget{
+    font-size: 14px;
+line-height: 28px;
+color: #04a9f4;
+font-weight: bold;
+font-family: "Proxima Nova";
+float: right;  
+margin-top: 10px;
+/* display: inline-block; */
+}
+.container form .rememberme{
+    display: inline-block;
+    margin:7px 0 30px 5px ;
+    vertical-align: super;
+}
